@@ -119,6 +119,14 @@
   .header__burger {
     display: none;
   }
+
+  /* .menu__item_small { */
+    /* display: none; */
+  /* } */
+
+  .popup__menu {
+    display: none;
+  }
 }
 
 @media (width < 1280px) {
