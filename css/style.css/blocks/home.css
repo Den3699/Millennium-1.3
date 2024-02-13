@@ -97,7 +97,7 @@
   .popup__content {
     background-color: rgb(255, 255, 255);
     min-width: 360px;
-    min-height: 963px;
+    /* min-height: 963px; */
     }
 
  
@@ -175,10 +175,10 @@
     margin-top: 20px;
   }
 
-  .popup__footer {
+  /* .popup__footer {
   
     margin-top: 330px;
-   }
+   }  */
 
   /* .popup__content { */
   
