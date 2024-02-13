@@ -98,7 +98,27 @@
     background-color: rgb(255, 255, 255);
     min-width: 360px;
     min-height: 963px;
-    
+    }
+
+ 
+
+  .popup__footer {
+    display: grid;
+    color: rgb(107, 90, 249);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 296px;
+   }
+
+  .popup__mail {
+    margin-bottom: 50px;
+
+  }
+
+  .popup__contacts {
+    margin-bottom: 90px;
 
   }
 }
@@ -154,6 +174,27 @@
     margin-bottom: 29px;
     margin-top: 20px;
   }
+
+  .popup__footer {
+  
+    margin-top: 330px;
+   }
+
+  /* .popup__content { */
+  
+   
+    /* min-height: 730px; */
+    /* } */
+
+    /* .popup__footer {
+  
+      margin-top: 200px;
+     } */
+
+  /* .popup__contacts {
+    margin-bottom: 42px;
+
+  } */
 }
 
 @media (width < 568px) {
@@ -167,5 +208,7 @@
   .home__title {
     margin-bottom: 220px;
   }
+
+ 
  
 } 

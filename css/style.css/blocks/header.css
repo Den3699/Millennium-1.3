@@ -127,6 +127,10 @@
   .popup__menu {
     display: none;
   }
+
+  .popup__footer {
+    display: none;
+  }
 }
 
 @media (width < 1280px) {
@@ -162,6 +166,10 @@
     margin-top: 80px;
     margin-left: 0;
   }
+
+  /* .popup__footer { */
+    /* display: block; */
+  /* } */
 }
 
 @media (width < 768px) {
@@ -182,5 +190,10 @@
 
   .header__btn_small {
     height: 32px;
+  }
+
+  .menu__list {
+    margin-top: 60px;
+   
   }
 }
