@@ -85,6 +85,8 @@
     background-color: rgba(163, 161, 161, 0.85);
     top: 97px;
     left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .popup__body {
@@ -97,6 +99,9 @@
   .popup__content {
     background-color: rgb(255, 255, 255);
     min-width: 360px;
+    position: relative;
+    display: grid;
+    gap: 380px;
     /* min-height: 963px; */
     }
 
@@ -109,15 +114,15 @@
     font-weight: 700;
     line-height: 22px;
     text-align: center;
-    margin-top: 296px;
+    /* margin-top: 296px; */
    }
 
   .popup__mail {
     margin-bottom: 50px;
 
-  }
+  } 
 
-  .popup__contacts {
+   .popup__contacts {
     margin-bottom: 90px;
 
   }
@@ -174,6 +179,22 @@
     margin-bottom: 29px;
     margin-top: 20px;
   }
+
+  .popup__content {
+
+    gap: 200px;
+    /* min-height: 963px; */
+    }
+
+    .popup__mail {
+      margin-bottom: 32px;
+  
+    } 
+
+    .popup__contacts {
+      margin-bottom: 42px;
+  
+    }
 
   /* .popup__footer {
   
