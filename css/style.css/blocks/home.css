@@ -85,8 +85,8 @@
     background-color: rgba(163, 161, 161, 0.85);
     top: 97px;
     left: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
+    /* overflow-y: auto;
+    overflow-x: hidden; */
   }
 
   .popup__body {
