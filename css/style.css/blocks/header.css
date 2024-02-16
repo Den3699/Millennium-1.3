@@ -114,6 +114,12 @@
   margin-bottom: 4px;
 }
 
+/* .header__burger3 {
+  background-color: rgb(107, 90, 249);
+} */
+
+
+
 @media (width > 1279px) {
   .header__btn_small,
   .header__burger {
@@ -151,6 +157,11 @@
   .header__btn {
     display: none;
   }
+
+  /* .header__burger3_popup {
+    background-color: rgb(67, 205, 147);
+    width: 41px;
+  } */
 
   .header {
     height: 97px;
