@@ -7,10 +7,6 @@
   position: relative;
 }
 
-
-
-
-
 .home__title {
   font-size: 36px;
   font-weight: 700;
@@ -44,17 +40,13 @@
     height: 100vh;
     overflow: hidden;
   }
- 
 
- 
   .home__container {
     margin-left: 10px;
     margin-right: 0px;
     position: relative;
     z-index: -1;
   }
-
- 
 
   .home__title {
     font-size: 24px;
@@ -86,64 +78,50 @@
     top: 0;
   }
 
-  .popup {
+  .side {
     position: fixed;
     width: 100%;
     height: 100%;
     background-color: rgba(163, 161, 161, 0.85);
-    /* top: 97px;
-    left: 0; */
-    /* overflow-y: auto;
-    overflow-x: hidden; */
   }
 
-  .popup__body {
+  .side__body {
     min-height: 100%;
     display: flex;
     align-items: center;
-    
   }
 
-  .popup__content {
+  .side__content {
     background-color: rgb(255, 255, 255);
     min-width: 360px;
     position: relative;
     display: grid;
     gap: 380px;
     height: 100vh;
-    /* min-height: 963px; */
-    }
+  }
 
- 
-
-  .popup__footer {
+  .side__footer {
     display: grid;
     color: rgb(107, 90, 249);
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
     text-align: center;
-    /* margin-top: 296px; */
-   }
+  }
 
-  .popup__mail {
+  .side__mail {
     margin-bottom: 50px;
+  }
 
-  } 
-
-   .popup__contacts {
+  .side__contacts {
     margin-bottom: 90px;
-
   }
 }
 
 @media (width < 768px) {
- 
-
   .home__container {
     display: flex;
     justify-content: center;
-
   }
 
   .home__btn {
@@ -151,9 +129,7 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-
   }
-
 
   .home__title {
     font-size: 18px;
@@ -161,18 +137,15 @@
     margin-top: 21px;
 
     margin-bottom: 371px;
-  
   }
 
   .home__desc {
     height: 45px;
     font-size: 12px;
     margin-bottom: 50px;
-    /* text-align: center; */
+
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 345px; */
-    /* text-align: start; */
   }
 
   .home__text {
@@ -189,56 +162,27 @@
     margin-top: 20px;
   }
 
-  .popup__content {
-
+  .side__content {
     gap: 100px;
-    /* min-height: 963px; */
-    }
+  }
 
-    .popup__mail {
-      margin-bottom: 5px;
-  
-    } 
+  .popup__mail {
+    margin-bottom: 5px;
+  }
 
-    .popup__contacts {
-      margin-bottom: 42px;
-  
-    }
-
-  /* .popup__footer {
-  
-    margin-top: 330px;
-   }  */
-
-  /* .popup__content { */
-  
-   
-    /* min-height: 730px; */
-    /* } */
-
-    /* .popup__footer {
-  
-      margin-top: 200px;
-     } */
-
-  /* .popup__contacts {
+  .popup__contacts {
     margin-bottom: 42px;
-
-  } */
+  }
 }
 
 @media (width < 568px) {
   .home__title {
     margin-bottom: 300px;
   }
- 
 }
 
 @media (width = 360px) {
   .home__title {
     margin-bottom: 220px;
   }
-
- 
- 
-} 
+}
